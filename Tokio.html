@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokio</title>
+</head>
+<body>
+    <img src="images/tokio.jpg" alt="Tokio">
+    <p>Токио — один из крупнейших городов в мире, современный мегаполис, настоящий «муравейник», где жизнь не останавливается даже ночью. Это один из самых удивительных городов на планете, ведь только здесь бетонные «джунгли» граничат с древними храмами, новинки хай-тека поражают воображение, а запутаться в линиях метро могут даже местные жители! Еще одна особенность мегаполиса – сложная планировка улиц и районов. Здесь легко заблудиться, поэтому нужно тщательно планировать маршрут, но быть готовым в любую минуту свернуть «не туда». Токио – город с характером, и только от вас зависит, сможете ли вы с ним подружиться.</p>
+    <button onclick="window.close()">Закрыть окно</button>
+
+    <script>
+        let image = document.querySelector('img');
+        image.setAttribute('id', 'img');
+        document.getElementById('img').style = `
+            width: 700px;
+        `;
+
+        let btn = document.querySelector('button');
+        btn.setAttribute('id', 'button');
+        document.getElementById('button').style = `
+            background: lime;
+            color: orange;
+            border: 0;
+        `;
+    </script>
+</body>
+</html>

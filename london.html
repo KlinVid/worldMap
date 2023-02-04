@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London</title>
+</head>
+<body>
+    <img src="images/London.jpg" alt="">
+    <p>Большой Лондон, как отдельная единица Англии, состоит из 32 районов, или “боро”. Собственные регламенты столицы делят город на Внутренний и Внешний. К Внутреннему Лондону относится центральная, историческая часть города. А вот Внешние районы начали строить, на месте высушенных болот, только в ХХ веке. Наиболее интересными для туриста будут три исторических района, разделенных Темзой: Вестминстер и Сити - по одну сторону, Саутварк - по другую.</p>
+    <button onclick="window.close()">Закрыть окно</button>
+
+    <script>
+        let image = document.querySelector('img');
+        image.setAttribute('id', 'img');
+        document.getElementById('img').style = `
+            width: 700px;
+        `;
+
+        let btn = document.querySelector('button');
+        btn.setAttribute('id', 'button');
+        document.getElementById('button').style = `
+            background: lime;
+            color: orange;
+            border: 0;
+        `;
+    </script>
+</body>
+</html>

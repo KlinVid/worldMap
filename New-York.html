@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New-York</title>
+</head>
+<body>
+    <img src="images/new-york.jpg" alt="new-york">
+    <p>Нью-Йорк – город, где говорят на 800 языках одновременно, где вершится экономическая судьба всего мира и место, куда мечтают попасть все туристы без исключения. «Большое яблоко» манит свободой, шумом сирен, желтыми такси, Манхеттеном, Таймс Сквером и Статуей Свободы. Приезжая в Нью-Йорк, можно ощутить дежавю, ведь все эти улицы, скверы и парки вы видели тысячи раз в фильмах и сериалах. Нью-Йорк впечатляет, удивляет, даже пугает, его можно обожать и ненавидеть, но точно нельзя остаться равнодушным к этой «столице мира».
+    </p>
+    <button onclick="window.close()">Закрыть окно</button>
+    
+    <script>
+        let image = document.querySelector('img');
+        image.setAttribute('id', 'img');
+        document.getElementById('img').style = `
+            width: 700px;
+        `;
+
+        let btn = document.querySelector('button');
+        btn.setAttribute('id', 'button');
+        document.getElementById('button').style = `
+            background: lime;
+            color: orange;
+            border: 0;
+        `;
+    </script>
+</body>
+</html>
